@@ -97,4 +97,24 @@ function logItems(n){
 And it was O of two n `O(2n)`, and we dropped the constant and it became O of n `O(n)`.
 
 
-- ### The trick interview question is that instead of passing this `n`, we're going to pass it ``two variables``.
+- ## The trick interview question is that instead of passing this `n`, we're going to pass it ``two variables``.
+
+    - ### O of A plus B ( O(a + b) )
+
+        ``` javascript
+
+        // O(a + b)
+
+        function logItems(a,b){
+            for(let i = 0; i < a; i++){
+                console.log(a);
+            };
+            for(let j = 0; j < b; j++){
+                console.log(j);
+            };
+        };
+
+        ```
+
+        
+
