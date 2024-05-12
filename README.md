@@ -14,17 +14,17 @@ array[6]; // value 7 'Omicron' worst case (known as Big-O)
 ```
 `omega` is represent as the best case.
 
-# 1. 0(n) Operation (0(n) is going to be in straight line)
+# 1. 0(n) Operation 
 
 ``` javascript
 // 0(n)
-function logItem(n){
+function logItems(n){
     for(let i = 0; i<n; i++){
         console.log(i);
     };
 };
 
-logItem(10);
+logItems(10);
 
 ```
 
@@ -41,5 +41,23 @@ function logItems(n){
 };
 
 logItems(10);
+
+```
+
+# 3. O: Drop Non-Dominants
+``` javascript
+
+function logItems(n){
+    for(let i = 0; i < n; i++){ // Dominants
+        for(let j = 0; j < n; j++){
+            console.log(i , j); 
+        };
+    };
+    for(let k = 0; k < n; k++){
+        console.log(k); // Non-Dominants
+    };
+};
+
+logItems(10)
 
 ```
