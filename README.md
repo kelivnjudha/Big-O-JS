@@ -71,4 +71,6 @@ logItems(10)
 ```
 
 # Different Terms for Input 
-Different terms for inputs is a very popular gotcha technical interview question.
+Different terms for inputs is a very popular gotcha technical interview question.And to explain it, I'm going to bring up some code that we've seen before where we have a for loop
+
+followed by another for loop.
