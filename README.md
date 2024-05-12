@@ -74,3 +74,24 @@ logItems(10)
 Different terms for inputs is a very popular gotcha technical interview question.And to explain it, I'm going to bring up some code that we've seen before where we have a for loop
 
 followed by another for loop.
+
+``` javascript
+
+
+function logItems(n){
+    for(let i = 0; i < n; i++){
+        console.log(i);
+    };
+
+    for(let j = 0; j < n; j++){
+        console.log(j);
+    };
+};
+
+
+```
+
+And it was O of two n `O(2n)`, and we dropped the constant and it became O of n `O(n)`.
+
+
+The trick interview question is that instead of passing this in, we're going to pass it two variables.
