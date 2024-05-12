@@ -14,7 +14,7 @@ array[6]; // value 7 'Omicron' worst case (known as Big-O)
 ```
 `omega` is represent as the best case.
 
-* 1. 0(n) Operation (0(n) is going to be in straight line)
+# 1. 0(n) Operation (0(n) is going to be in straight line)
 
 ``` javascript
 // 0(n)
@@ -27,4 +27,4 @@ function logItem(n){
 ```
 
 
-* 2. 0(n^2)
+# 2. 0(n^2)
