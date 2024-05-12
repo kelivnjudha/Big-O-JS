@@ -142,6 +142,29 @@ And it was O of two n `O(2n)`, and we dropped the constant and it became O of n 
     And this becomes o of n. `O(n)`
 
     ### But that is not correct because you can't say that a is equal to n and b is equal to n.
+    Because what if A is one and B is a million? Those are very different for loops.
 
+    So what you have to do is say the first for loop is O of A or whatever the variable might be. `O(a)`
+
+    And the second one is going to be O of B. And when you add these together. `O(b)`
+
+    And when you add these together. O of A plus B is as far as you can simplify this. `O(a + b)`
+
+    Similarly, if these were nested for loops.
+
+    This would become O of A times B. `O(a * b)`
+
+    ``` javascript
+
+    function logItems(a,b){
+        for(let i = 0; i < a; i++){
+            for(let j = 0; j < b; j++){
+                console.log(i, j);
+            };
+        };
+    };
+    
+    ```
+    You can't use N, you actually have to use different terms for inputs.
 
 
