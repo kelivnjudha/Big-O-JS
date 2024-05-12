@@ -141,7 +141,7 @@ And it was O of two n `O(2n)`, and we dropped the constant and it became O of n 
     And we're going to drop the constant.
     And this becomes o of n. `O(n)`
 
-    ***###*** But that is not correct because you can't say that a is equal to n and b is equal to n.
+    *** But that is not correct because you can't say that a is equal to n and b is equal to n.
 
 
 
