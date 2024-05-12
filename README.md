@@ -1,3 +1,5 @@
+# Big O
+
 `omega`,`theta` ,and `Omicron (known as big-O)`
 
 
