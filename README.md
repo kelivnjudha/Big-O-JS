@@ -101,20 +101,47 @@ And it was O of two n `O(2n)`, and we dropped the constant and it became O of n 
 
     - ### O of A plus B ( O(a + b) )
 
-        ``` javascript
+    ``` javascript
 
-        // O(a + b)
+    // O(a + b)
 
-        function logItems(a,b){
-            for(let i = 0; i < a; i++){
-                console.log(a);
-            };
-            for(let j = 0; j < b; j++){
-                console.log(j);
-            };
+    function logItems(a,b){
+        for(let i = 0; i < a; i++){
+            console.log(i);
         };
+        for(let j = 0; j < b; j++){
+            console.log(j);
+        };
+    };
 
-        ```
+    ```
 
-        
+    This single for loop is O of n. `O(n)`
+
+    ``` javascript
+    
+    for(let i = 0; i < a; i++){
+            console.log(i);
+        };
+    
+    ```
+
+    And this single for loop is O of n. `O(n)`
+
+    
+    ``` javascript
+    
+    for(let j = 0; j < b; j++){
+            console.log(j);
+        };
+    
+    ```
+
+    And we're going to add these together. And that becomes O of two n. ``O(2n)``
+    And we're going to drop the constant.
+    And this becomes o of n. `O(n)`
+
+    ***###*** But that is not correct because you can't say that a is equal to n and b is equal to n.
+
+
 
