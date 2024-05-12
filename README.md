@@ -12,7 +12,10 @@ array[3]; // value 4 'theta' average case
 array[6]; // value 7 'Omicron' worst case (known as Big-O)
 
 ```
-`omega` is represent as the best case.
+- `omega` is represent as the best case.
+- `theta` is represent as average case.
+- `Omicron` is represent as worst case. 
+
 
 # 1. 0(n) Operation 
 
