@@ -44,7 +44,7 @@ logItems(10);
 
 ```
 
-# 3. O: Drop Non-Dominants
+# 3. Drop Non-Dominants
 ``` javascript
 
 function logItems(n){
@@ -61,3 +61,14 @@ function logItems(n){
 logItems(10)
 
 ```
+
+# 4. O(log n)
+
+``` javascript
+//divide and conquer.
+
+
+```
+
+# Different Terms for Input 
+Different terms for inputs is a very popular gotcha technical interview question.
